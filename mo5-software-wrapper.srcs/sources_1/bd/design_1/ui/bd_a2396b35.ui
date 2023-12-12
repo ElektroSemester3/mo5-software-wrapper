@@ -1,0 +1,41 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.65519",
+   "Default View_TopLeft":"-204,-27",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 threadsafe
+#  -string -flagsOSRD
+preplace port buttons_4bits -pg 1 -lvl 3 -x 500 -y 40 -defaultsOSRD
+preplace port S_AXI -pg 1 -lvl 0 -x -50 -y 30 -defaultsOSRD
+preplace port leds_4bits -pg 1 -lvl 3 -x 500 -y 470 -defaultsOSRD
+preplace port S_AXI1 -pg 1 -lvl 0 -x -50 -y 450 -defaultsOSRD
+preplace port rgbleds_6bits -pg 1 -lvl 3 -x 500 -y 330 -defaultsOSRD
+preplace port S_AXI2 -pg 1 -lvl 0 -x -50 -y 310 -defaultsOSRD
+preplace port switches_2bits -pg 1 -lvl 3 -x 500 -y 190 -defaultsOSRD
+preplace port S_AXI3 -pg 1 -lvl 0 -x -50 -y 170 -defaultsOSRD
+preplace port port-id_s_axi_aclk -pg 1 -lvl 0 -x -50 -y 60 -defaultsOSRD
+preplace port port-id_s_axi_aresetn -pg 1 -lvl 0 -x -50 -y 90 -defaultsOSRD
+preplace portBus ui_interrupt -pg 1 -lvl 3 -x 500 -y 120 -defaultsOSRD
+preplace inst switches_gpio -pg 1 -lvl 1 -x 110 -y 190 -defaultsOSRD
+preplace inst rgb_leds_gpio -pg 1 -lvl 1 -x 110 -y 330 -defaultsOSRD
+preplace inst btns_gpio -pg 1 -lvl 1 -x 110 -y 50 -defaultsOSRD
+preplace inst leds_gpio -pg 1 -lvl 1 -x 110 -y 470 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -x 380 -y 120 -defaultsOSRD
+preplace netloc btns_gpio_ip2intc_irpt 1 1 1 230 60n
+preplace netloc switches_gpio_ip2intc_irpt 1 1 1 230 130n
+preplace netloc s_axi_aclk_1 1 0 1 -10 50n
+preplace netloc s_axi_aresetn_1 1 0 1 0 70n
+preplace netloc xlconcat_0_dout 1 2 1 N 120
+preplace netloc Conn1 1 1 2 NJ 40 NJ
+preplace netloc Conn2 1 0 1 NJ 30
+preplace netloc Conn3 1 1 2 NJ 470 NJ
+preplace netloc Conn4 1 0 1 NJ 450
+preplace netloc Conn5 1 1 2 NJ 330 NJ
+preplace netloc Conn6 1 0 1 NJ 310
+preplace netloc Conn7 1 1 2 220J 190 NJ
+preplace netloc Conn8 1 0 1 NJ 170
+levelinfo -pg 1 -50 110 380 500
+pagesize -pg 1 -db -bbox -sgen -200 -30 680 700
+"
+}
+

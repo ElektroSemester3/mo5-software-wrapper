@@ -1,0 +1,24 @@
+
+*** Running vivado
+    with args -log design_1_axi_gpio_0_8.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_gpio_0_8.tcl
+
+
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source design_1_axi_gpio_0_8.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1359.738 ; gain = 154.598
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_gpio_0_8
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry f187bb883f09b9ee to dir: D:/Digitaal/mo5-software-wrapper/mo5-software-wrapper.runs/design_1_axi_gpio_0_8_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Digitaal/mo5-software-wrapper/mo5-software-wrapper.cache/ip/2023.1/f/1/f187bb883f09b9ee/design_1_axi_gpio_0_1.dcp to D:/Digitaal/mo5-software-wrapper/mo5-software-wrapper.runs/design_1_axi_gpio_0_8_synth_1/design_1_axi_gpio_0_8.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Digitaal/mo5-software-wrapper/mo5-software-wrapper.cache/ip/2023.1/f/1/f187bb883f09b9ee/design_1_axi_gpio_0_1_sim_netlist.v to D:/Digitaal/mo5-software-wrapper/mo5-software-wrapper.runs/design_1_axi_gpio_0_8_synth_1/design_1_axi_gpio_0_8_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Digitaal/mo5-software-wrapper/mo5-software-wrapper.cache/ip/2023.1/f/1/f187bb883f09b9ee/design_1_axi_gpio_0_1_sim_netlist.vhdl to D:/Digitaal/mo5-software-wrapper/mo5-software-wrapper.runs/design_1_axi_gpio_0_8_synth_1/design_1_axi_gpio_0_8_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Digitaal/mo5-software-wrapper/mo5-software-wrapper.cache/ip/2023.1/f/1/f187bb883f09b9ee/design_1_axi_gpio_0_1_stub.v to D:/Digitaal/mo5-software-wrapper/mo5-software-wrapper.runs/design_1_axi_gpio_0_8_synth_1/design_1_axi_gpio_0_8_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Digitaal/mo5-software-wrapper/mo5-software-wrapper.cache/ip/2023.1/f/1/f187bb883f09b9ee/design_1_axi_gpio_0_1_stub.vhdl to D:/Digitaal/mo5-software-wrapper/mo5-software-wrapper.runs/design_1_axi_gpio_0_8_synth_1/design_1_axi_gpio_0_8_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_axi_gpio_0_8, cache-ID = f187bb883f09b9ee.
+INFO: [Common 17-206] Exiting Vivado at Fri Dec  8 15:04:18 2023...
